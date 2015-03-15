@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from random import uniform
 from math import sin, pi
-alpha = uniform(0.1,pi-0.1)
-beta  = uniform(0.1,pi-0.1-alpha)
+alpha = uniform(0.1,pi-0.2)
+beta  = uniform(0.1,pi-alpha-0.1)
 gamma = pi-alpha-beta
 c=uniform(0,2048)
 a=c*sin(alpha)/sin(gamma)
