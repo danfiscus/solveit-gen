@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	int s1,s2,s3,a1,a2,a3;
+	unsigned int s1,s2,s3,a1,a2,a3;
 	srand(time(0));
 	a1 = rand() % 178 + 1;
 	cout << "Angle 1: " << a1 << endl;
@@ -19,7 +19,7 @@ int main()
 	int y = a1+a2+a3;
 	cout << "Total of angles: " << y << endl;
 
-	s3 = rand();
+	s3 = rand() % 1000 + 1;
 	s1 = s3 * (sin(a1)/sin(a3));
 	s2 = s3 * (sin(a2)/sin(a3));
 	cout << "Side 1: " << s1 << endl;
