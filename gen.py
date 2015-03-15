@@ -12,7 +12,7 @@ print """
 a≈%s
 b≈%s
 c≈%s
-alpha≈%sradians≈%sdegrees
-beta≈%sradians≈%sdegrees
-gamma≈%sradians≈%sdegrees
+alpha≈%s rads≈%s°
+beta≈%s rads≈%s°
+gamma≈%s rads≈%s°
 """ % (a, b, c, alpha, alpha/pi*180, beta, beta/pi*180, gamma, gamma/pi*180)
