@@ -10,7 +10,7 @@ print """
 a=%s
 b=%s
 c=%s
-alpha=%sradians
-beta=%sradians
-gamma=%sradians
-""" % (a, b, c, alpha, beta, gamma)
+alpha=%sradians=%sdegrees
+beta=%sradians=%sdegrees
+gamma=%sradians=%sdegress
+""" % (a, b, c, alpha, alpha/pi*180, beta, beta/pi*180, gamma, gamma/pi*180)
